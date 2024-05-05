@@ -1,0 +1,165 @@
+body{
+    background:linear-gradient(#6157FF,#EE49FD);
+    background-size:100vh 100vh;
+    background-attachment:fixed;
+}
+
+#crespo,#Mauricio,#Abraham,#bye{
+    border: 2px groove #b1b1b1;
+    border-radius: 10px;
+}
+
+#bye{
+    text-align: center;
+}
+
+marquee{
+    margin: 0.8% 0;
+    border-radius: 5px;
+    background-color: #c0f;
+}
+
+.centrar,h2,h1{
+    text-align: center;
+}
+
+.ejemplo{
+    width: 70vw;
+    border-radius: 20px;
+}
+
+.avatar_img{
+    width: 30vh;
+}
+
+.avatar{
+    text-align: center;
+    padding: 10px 0 0 0;
+    width: 33vh;
+    height: 300px;
+    border: 2px solid #fff;
+    border-radius: 25px;
+    display: inline-block;
+    margin: 20px 7.5%;
+}
+
+#js{
+    filter: drop-shadow(0 0 5px #000);
+}
+
+summary{
+    list-style: none;
+}
+
+.img_abraham{
+    width: 50vh;
+}
+
+table{
+    border-radius: 15px;
+    animation: color 5s   infinite linear ;
+    width: 80%;
+    margin: auto;
+    left: 0;
+}
+
+.texto{
+    width: 50%;
+}
+
+@keyframes color{
+    0%,100%{border: 1px solid azure}
+    50%{border: 1px solid #ff8ba8;}
+}
+
+details{
+    margin-bottom: 25px;
+}
+.avatar:nth-child(1){
+    position: relative;
+    animation: posicion1 6s -2s infinite linear ;
+    z-index: 1;
+}
+.avatar:nth-child(2){
+    position: relative;
+    animation: posicion2 6s -4s infinite linear ;
+    z-index: 2;
+}
+.avatar:nth-child(3){
+    position: relative;
+    animation: posicion3 6s -6s infinite linear ;
+    z-index: 3;
+}
+
+@keyframes posicion1 {
+    0%{
+        left: 64%;
+    }
+    20%{
+        left: 64%;
+    }
+    40%{
+        left: 32%;
+    }
+    60%{
+        left: 32%;
+    }
+    80%{
+        left: 0;
+    }
+    100%{
+        left: 0;
+    }
+}
+
+@keyframes posicion2 {
+    0%{
+        left: 32%;
+    }
+    20%{
+        left: 32%;
+    }
+    40%{
+        left: 0;
+    }
+    60%{
+        left: 0;
+    }
+    80%{
+        left: -32%;
+    }
+    100%{
+        left: -32%;
+    }
+}
+
+@keyframes posicion3 {
+    0%{
+        left: 0;
+    }
+    20%{
+        left: 0;
+    }
+    40%{
+        left: -32%;
+    }
+    60%{
+        left: -32%;
+    }
+    80%{
+        left: -64%;
+    }
+    100%{
+        left: -64%;
+    }
+}
+
+hr{
+    width: 90%;
+    animation: color 5s   infinite linear ;
+    border-radius: 50%;
+}
+
+table:nth-last-child(1){
+    margin-bottom: 20px;
+}
